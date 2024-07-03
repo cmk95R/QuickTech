@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "140725474233",
+    "project_id": "quicktech-89c65",
+    "storage_bucket": "quicktech-89c65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140725474233:android:b960dbc5502424d851dc68",
+        "android_client_info": {
+          "package_name": "com.example.seprice5"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRPzDPu7a-fL3M-ibgnaSFTK6F6Pe8QZc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

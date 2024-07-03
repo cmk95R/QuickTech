@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SePrice5</string>
+    <string name="heart_icon">iconoHeart\n</string>
+    <string name="search_icon">searchIcon</string>
+    <string name="cart_icon">carritoIcon</string>
+    <string name="menu_icon">menuIcon</string>
+    <string name="gpu1_icon">gpuIcon</string>
+    <string name="banner_marcas">bannerMarcas</string>
+    <string name="destacados">destacados</string>
+    <string name="galleryProduct">galleryProducts</string>
+    <string name="galleryProduct1">galleryProduct2</string>
+    <string name="galleryProduct2">galletyProduct2</string>
+    <string name="galleryProduct3">galleryProduct3</string>
+    <string name="bannerColor">bannerColor\n</string>
+    <string name="BrandText">brandText</string>
+    <string name="img_notebook">imgProducts\n</string>
+    <string name="banner_hero">banner_hero</string>
+    <string name="gracias_por_elegir_a_quicktech">Gracias por elegir a QuickTech</string>
+    <string name="disponibilidad"><![CDATA[Disponibilidad >]]></string>
+</resources>

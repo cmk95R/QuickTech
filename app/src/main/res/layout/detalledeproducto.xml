@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#494FEF"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/textViewExample"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+
+            android:id="@+id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#494FEF"
+            android:minHeight="80dp"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="134dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="24dp"
+            android:contentDescription="@string/BrandText"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.299"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/quicktech" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="16dp"
+            android:background="#00FFFFFF"
+            android:contentDescription="@string/cart_icon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/carrito" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="49dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:background="#00FFFFFF"
+            android:contentDescription="@string/menu_icon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/baseline_menu_24" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="871dp"
+        android:background="@color/white"
+        android:visibility="visible">
+
+
+        <TextView
+            android:id="@+id/bgsegundo"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="#494FEF"
+            android:fontFamily="sans-serif-black"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="sans"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button_disponibilidad"
+            android:layout_width="103dp"
+            android:layout_height="23dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/botonrounded"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:shadowColor="#FFFFFF"
+            android:text="@string/disponibilidad"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="11sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.931"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/titulocategoria"
+            android:layout_width="114dp"
+            android:layout_height="23dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Notebooks"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:typeface="sans"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.074"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/fondito"
+            android:layout_width="match_parent"
+            android:layout_height="796dp"
+            android:layout_marginBottom="12dp"
+            android:background="#D9D9D9"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.631"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/lineseparator2"
+            android:layout_width="321dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="196dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.525"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgcarrousel2"
+            app:srcCompat="@drawable/line_25" />
+
+        <TextView
+            android:id="@+id/tituloruta"
+            android:layout_width="367dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Inicio > Notebooks > Notebook Gamer > Notebook GigaByte aero 16 Oled i7 12700H rtx 3060"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#000"
+            android:textSize="11sp"
+            android:textStyle="normal"
+            android:typeface="sans"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.477"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/fondito" />
+
+        <TextView
+            android:id="@+id/tituloprod"
+            android:layout_width="370dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="48dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Notebook GigaByte aero 16 Oled i7 12700H rtx 3060"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:typeface="sans"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.487"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/fondito" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="161dp"
+            android:layout_height="144dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/image_34"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tituloprod" />
+
+        <ImageView
+            android:id="@+id/imgcarrousel1"
+            android:layout_width="85dp"
+            android:layout_height="89dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/image_35"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView1" />
+
+        <ImageView
+            android:id="@+id/imgcarrousel2"
+            android:layout_width="85dp"
+            android:layout_height="89dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/image_36"
+            app:layout_constraintEnd_toStartOf="@+id/imgcarrousel3"
+            app:layout_constraintHorizontal_bias="0.75"
+            app:layout_constraintStart_toEndOf="@+id/imgcarrousel1"
+            app:layout_constraintTop_toBottomOf="@+id/imageView1" />
+
+        <ImageView
+            android:id="@+id/imgcarrousel3"
+            android:layout_width="85dp"
+            android:layout_height="89dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="48dp"
+            android:background="@drawable/image_37"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView1" />
+
+        <ImageView
+            android:id="@+id/lineseparator"
+            android:layout_width="321dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.533"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgcarrousel2"
+            app:srcCompat="@drawable/line_25" />
+
+        <TextView
+            android:id="@+id/btncomprar"
+            android:layout_width="320dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/botonrounded"
+            android:fontFamily="sans-serif-black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/lineseparator" />
+
+        <TextView
+            android:id="@+id/textocomprar"
+            android:layout_width="118dp"
+            android:layout_height="17dp"
+            android:layout_marginTop="34dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="COMPRAR AHORA"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#FFFF"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            android:typeface="monospace"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgcarrousel2" />
+
+        <ImageView
+            android:id="@+id/boxdescripcion"
+            android:layout_width="321dp"
+            android:layout_height="117dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btncomprar"
+            app:layout_constraintVertical_bias="0.088"
+            app:srcCompat="@drawable/rectangle_45tarjetas" />
+
+        <TextView
+            android:id="@+id/descripcion"
+            android:layout_width="278dp"
+            android:layout_height="85dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Descripcion Del Producto\n\nAero 15 OLED KD\nSistema operativo: Windows 10 Pro\nProcesador: 11th Gen Intel® Core™ i7-11800H (2.3GHz~4.6GHz)\nPantalla: 15.6\"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#000"
+            android:textSize="11sp"
+            android:textStyle="normal"
+            android:typeface="sans"
+            app:layout_constraintBottom_toBottomOf="@+id/boxdescripcion"
+            app:layout_constraintEnd_toEndOf="@+id/boxdescripcion"
+            app:layout_constraintHorizontal_bias="0.473"
+            app:layout_constraintStart_toStartOf="@+id/boxdescripcion"
+            app:layout_constraintTop_toTopOf="@+id/boxdescripcion"
+            app:layout_constraintVertical_bias="0.29" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="317dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.524"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/boxdescripcion"
+            app:srcCompat="@drawable/group_55" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="317dp"
+            android:layout_height="106dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.524"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView9"
+            app:srcCompat="@drawable/group_52" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>
