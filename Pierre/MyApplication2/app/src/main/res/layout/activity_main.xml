@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background=""
+    tools:context=".MainActivity" >
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText1"
+        android:layout_width="374dp"
+        android:layout_height="47dp"
+        android:background="@drawable/rounded_edittext_background"
+        android:hint="  ***********"
+        android:textAlignment="viewStart"
+        android:textColor="#7E82A2"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.468" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Contraseña"
+        android:textColor="#020A51"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.428" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="48dp"
+        android:background="#494FEF"
+        android:fontFamily="sans-serif-black"
+        android:paddingTop="5dp"
+        android:text="QuickTech"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#1E1E1E"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView0"
+        android:layout_width="94dp"
+        android:layout_height="87dp"
+        app:srcCompat="@drawable/vector"
+        tools:layout_editor_absoluteX="301dp"
+        tools:layout_editor_absoluteY="185dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/vector__1_"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="185dp" />
+
+    <TextView
+        android:id="@+id/Iniciar_sesion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gugi"
+        android:text="Iniciar Sesión"
+        android:textColor="#000000"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="219dp" />
+
+    <TextView
+        android:id="@+id/Iniciar_sesion_sombra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.1"
+        android:fontFamily="@font/gugi"
+        android:shadowColor="#252525"
+        android:shadowDx="0"
+        android:shadowDy="6"
+        android:shadowRadius="6"
+        android:text="Iniciar Sesión"
+        android:textColor="#000000"
+        android:textSize="45sp"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Email"
+        android:textColor="#020A51"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.342" />
+
+    <TextView
+        android:id="@+id/Crear_cuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Crear cuenta"
+        android:textColor="#020A51"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.917"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.532" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText0"
+        android:layout_width="374dp"
+        android:layout_height="47dp"
+        android:background="@drawable/rounded_edittext_background"
+        android:hint="  example@gmail.com"
+        android:textAlignment="viewStart"
+        android:textColor="#7E82A2"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.378" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="450dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#494FEF"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Iniciar Sesion >"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="-20dp"
+        tools:layout_editor_absoluteY="805dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mantener sesión iniciada"
+        android:textColor="#020A51"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="452dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

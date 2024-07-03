@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#d9d9d9"
+    android:layout_height="match_parent">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#494FEF"
+            android:minHeight="80dp"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="27dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="134dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="12dp"
+            app:layout_constraintEnd_toEndOf="@+id/toolbar2"
+            app:layout_constraintHorizontal_bias="0.004"
+            app:layout_constraintStart_toEndOf="@+id/imageButton"
+            app:srcCompat="@drawable/quicktech"
+            tools:layout_editor_absoluteY="21dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="47dp"
+            android:layout_height="42dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.043"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/toolbar2"
+            app:layout_constraintVertical_bias="0.018"
+            app:srcCompat="@drawable/baseline_menu_24" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:srcCompat="@drawable/heart"
+            tools:layout_editor_absoluteY="21dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="25dp"
+            android:layout_height="22dp"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/baseline_search_24"
+            tools:layout_editor_absoluteX="324dp"
+            tools:layout_editor_absoluteY="21dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/carrito"
+            tools:layout_editor_absoluteX="357dp"
+            tools:layout_editor_absoluteY="21dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="450dp"
+            android:layout_height="100dp"
+            android:backgroundTint="#494FEF"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Pagar Ahora"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="-20dp"
+            tools:layout_editor_absoluteY="809dp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/candado"
+            tools:layout_editor_absoluteX="266dp"
+            tools:layout_editor_absoluteY="844dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.102"
+        app:srcCompat="@drawable/rectangle_27rectangulo" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.151"
+        app:srcCompat="@drawable/tarjeta_de_credito_1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Pagar"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.11" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Métodos de Pago"
+        android:textColor="#020A51"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.129"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.255" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/mercadopago"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="255dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_edittext_background"
+        app:srcCompat="@drawable/visa_logo_9_1"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="255dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_edittext_background"
+        app:srcCompat="@drawable/american_express_logo__1"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="254dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Tus Datos de Pago"
+        android:textColor="#020A51"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.377" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_edittext_background"
+        app:srcCompat="@drawable/mastercard_early_1990s_logo_1"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="254dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_edittext_background"
+        app:srcCompat="@drawable/bitcoin_logo_1"
+        tools:layout_editor_absoluteX="330dp"
+        tools:layout_editor_absoluteY="254dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_edittext_background"
+        app:srcCompat="@drawable/paypal_simbolo_1"
+        tools:layout_editor_absoluteX="270dp"
+        tools:layout_editor_absoluteY="254dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Monto Total"
+        android:textColor="#020A51"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.097"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="296dp"
+        android:layout_height="44dp"
+        android:text="Guardar datos para futuras compras"
+        android:textColor="#020A51"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="725dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="$10.000"
+        android:textColor="#494FEF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.794" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_edittext_background"
+        android:hint="  Ej. Rodolfo Rivera"
+        android:textAlignment="viewStart"
+        android:textColor="#7E82A2"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.473" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText2"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_edittext_background"
+        android:hint="  XXXX XXXX XXXX XXXX"
+        android:textAlignment="viewStart"
+        android:textColor="#7E82A2"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.592" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Titular de tarjeta"
+        android:textColor="#020A51"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.428" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText3"
+        android:layout_width="166dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_edittext_background"
+        android:hint="  MM/YY"
+        android:textAlignment="viewStart"
+        android:textColor="#7E82A2"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.692" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Número de Tarjeta"
+        android:textColor="#020A51"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.54" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText4"
+        android:layout_width="166dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_edittext_background"
+        android:hint="  Ej. 123"
+        android:textAlignment="viewStart"
+        android:textColor="#7E82A2"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.692" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/help_outline_24px_1incognita"
+        android:fontFamily="@font/poppins_bold"
+        android:text="CVV"
+        android:textColor="#020A51"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.643" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Fecha de Vencimiento"
+        android:textColor="#020A51"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.643" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Ver detalles ->"
+        android:textColor="#494FEF"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="639dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="148dp"
+        android:layout_height="57dp"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
