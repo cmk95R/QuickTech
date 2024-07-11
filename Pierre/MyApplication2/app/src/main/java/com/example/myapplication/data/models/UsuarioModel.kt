@@ -4,13 +4,13 @@ import java.sql.Date
 
 data class UsuarioModel(
 
-    var id : String = "",
+    var id : Int = 0,
     var nombre : String = "",
     var apellido : String = "",
     var email : String = "",
     var password : String = "",
     var passwordTwo : String = "",
-    var FNacimiento : Date = "21-09-1998",
+    var FNacimiento : String = "",
     var Foto : String = "",
 
 )
